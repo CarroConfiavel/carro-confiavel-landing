@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 15%;
 
-    --primary: 218 85% 25%;
+    --primary: 221 83% 60%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 15% 95%;
@@ -34,17 +34,17 @@ All colors MUST be HSL.
 
     --border: 220 15% 90%;
     --input: 220 15% 90%;
-    --ring: 218 85% 25%;
-
+    --ring: 221 83% 60%;
+    
     --radius: 0.75rem;
     
     /* Custom brand colors */
-    --hero-gradient-from: 218 85% 25%;
-    --hero-gradient-to: 262 80% 40%;
+    --hero-gradient-from: 221 83% 60%;
+    --hero-gradient-to: 226 75% 55%;
     --success-glow: 142 76% 36%;
     
     /* Shadows */
-    --shadow-elegant: 0 10px 40px -10px hsl(218 85% 25% / 0.2);
+    --shadow-elegant: 0 10px 40px -10px hsl(221 83% 60% / 0.2);
     --shadow-glow: 0 0 60px hsl(142 76% 36% / 0.3);
     
     /* Transitions */
@@ -77,7 +77,7 @@ All colors MUST be HSL.
     --popover: 220 20% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 218 90% 60%;
+    --primary: 221 85% 65%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 20% 18%;
@@ -94,10 +94,10 @@ All colors MUST be HSL.
 
     --border: 220 20% 20%;
     --input: 220 20% 20%;
-    --ring: 218 90% 60%;
+    --ring: 221 85% 65%;
     
-    --hero-gradient-from: 218 90% 35%;
-    --hero-gradient-to: 262 85% 45%;
+    --hero-gradient-from: 221 85% 50%;
+    --hero-gradient-to: 226 80% 60%;
     --success-glow: 142 76% 40%;
     
     --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.5);

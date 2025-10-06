@@ -16,7 +16,7 @@ const Index = () => {
         <div className="max-w-5xl mx-auto text-center space-y-12 animate-fade-in">
           {/* Logo/Brand */}
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent mb-2">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-cal-sans bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent mb-2">
               CarroConfiável.com
             </h1>
           </div>
@@ -67,8 +67,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Logo */}
-            <div className="text-2xl font-bold bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent">
-              cc.com
+            <div className="text-2xl font-cal-sans bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent">
+              CarroConfiável.com
             </div>
 
             {/* Social Links */}
