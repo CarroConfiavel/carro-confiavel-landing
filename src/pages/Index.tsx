@@ -2,6 +2,7 @@ import Countdown from "@/components/Countdown";
 import LeadForm from "@/components/LeadForm";
 import Features from "@/components/Features";
 import { Linkedin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Index = () => {
   return (
@@ -16,9 +17,11 @@ const Index = () => {
         <div className="max-w-5xl mx-auto text-center space-y-12 animate-fade-in">
           {/* Logo/Brand */}
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent mb-2">
-              CarroConfiável.com
-            </h1>
+            <img 
+              src={logo} 
+              alt="CarroConfiável.com" 
+              className="h-16 md:h-20 lg:h-24 mx-auto"
+            />
           </div>
 
           {/* Main Headline */}
@@ -67,8 +70,12 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Logo */}
-            <div className="text-2xl font-bold bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent">
-              cc.com
+            <div>
+              <img 
+                src={logo} 
+                alt="cc.com" 
+                className="h-12"
+              />
             </div>
 
             {/* Social Links */}
