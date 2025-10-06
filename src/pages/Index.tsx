@@ -12,7 +12,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-hero-from/10 via-background to-hero-to/10 -z-10"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(var(--hero-gradient-from)/0.15),transparent_50%)] -z-10"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,hsl(var(--hero-gradient-to)/0.15),transparent_50%)] -z-10"></div>
-        
+
         <div className="max-w-5xl mx-auto text-center space-y-12 animate-fade-in">
           {/* Logo/Brand */}
           <div className="mb-8">
