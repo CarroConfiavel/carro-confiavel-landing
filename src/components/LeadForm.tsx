@@ -12,7 +12,7 @@ const LeadForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Validação básica
     if (!name.trim() || !email.trim()) {
       toast({
@@ -34,16 +34,45 @@ const LeadForm = () => {
 
     setIsLoading(true);
 
-    // Simulação de envio (aqui você integraria com seu backend)
-    setTimeout(() => {
-      toast({
-        title: "Cadastro realizado! 🎉",
-        description: "Você receberá em breve mais informações sobre o lançamento.",
+    try {
+      // Envio via Web3Forms
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "4681713c-a8c8-4b5e-8ca9-d23b9fef0a11",
+          name: name.trim(),
+          email: email.trim(),
+          subject: "Novo Lead - Carro Confiável",
+          from_name: "Carro Confiável Landing Page",
+          replyto: email.trim(),
+        }),
       });
-      setName("");
-      setEmail("");
+
+      const data = await response.json();
+
+      if (data.success) {
+        toast({
+          title: "Cadastro realizado! 🎉",
+          description: "Você receberá em breve mais informações sobre o lançamento.",
+        });
+        setName("");
+        setEmail("");
+      } else {
+        throw new Error(data.message || "Erro ao enviar dados");
+      }
+    } catch (error) {
+      console.error("Erro ao enviar formulário:", error);
+      toast({
+        title: "Erro no cadastro",
+        description: "Ocorreu um erro ao processar seu cadastro. Tente novamente.",
+        variant: "destructive",
+      });
+    } finally {
       setIsLoading(false);
-    }, 1500);
+    }
   };
 
   return (
