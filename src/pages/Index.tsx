@@ -2,7 +2,6 @@ import Countdown from "@/components/Countdown";
 import LeadForm from "@/components/LeadForm";
 import Features from "@/components/Features";
 import { Linkedin } from "lucide-react";
-import logo from "@/assets/logo.png";
 
 const Index = () => {
   return (
@@ -17,11 +16,9 @@ const Index = () => {
         <div className="max-w-5xl mx-auto text-center space-y-12 animate-fade-in">
           {/* Logo/Brand */}
           <div className="mb-8">
-            <img 
-              src={logo} 
-              alt="CarroConfiável.com" 
-              className="h-16 md:h-20 lg:h-24 mx-auto"
-            />
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent mb-2">
+              CarroConfiável.com
+            </h1>
           </div>
 
           {/* Main Headline */}
@@ -50,11 +47,11 @@ const Index = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(var(--success-glow)/0.1),transparent_70%)]"></div>
         <div className="max-w-3xl mx-auto text-center space-y-8 relative z-10">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground animate-fade-in">
-            Saia na frente. <span className="text-success">Garanta seu benefício de lançamento.</span>
+            Saia na frente. <span className="text-accent">Garanta seu benefício de lançamento.</span>
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Cadastre-se e seja o primeiro a saber sobre o lançamento. Os inscritos terão a{" "}
-            <strong className="text-success">garantia de anunciar o primeiro veículo gratuitamente.</strong>
+            <strong className="text-accent">garantia de anunciar o primeiro veículo gratuitamente.</strong>
           </p>
           <div className="pt-6">
             <LeadForm />
@@ -70,12 +67,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Logo */}
-            <div>
-              <img 
-                src={logo} 
-                alt="cc.com" 
-                className="h-12"
-              />
+            <div className="text-2xl font-bold bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent">
+              cc.com
             </div>
 
             {/* Social Links */}
