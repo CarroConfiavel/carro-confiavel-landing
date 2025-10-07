@@ -12,7 +12,7 @@ const features = [
     icon: ShieldCheck,
     title: "Transparência Radical",
     description:
-      "Somos a primeira plataforma onde o Laudo Cautelar validado é a base de tudo. Cada carro é um livro aberto, garantindo que você sabe exatamente o que está comprando.",
+      "Somos a primeira plataforma onde o Laudo Cautelar validado é a base de tudo. Cada carro é um livro aberto, garantindo que você saiba exatamente o que está comprando.",
   },
   {
     icon: HandshakeIcon,
