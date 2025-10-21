@@ -40,7 +40,9 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 blur-xl rounded-3xl"></div>
               <div className="relative bg-card border-2 border-primary/20 rounded-3xl px-8 py-6 shadow-elegant">
                 <p className="text-lg md:text-xl text-foreground leading-relaxed">
-                  Parcerias estão sendo firmadas para oferecer as melhores taxas de financiamento do mercado automotivo. A CarroConfiável chegará em breve para ajudar você a conquistar o carro dos seus sonhos.
+                  Parcerias estão sendo firmadas para oferecer as melhores taxas de financiamento do mercado automotivo.
+                  <br /><br />
+                  A CarroConfiável chegará em breve para ajudar você a conquistar o carro dos seus sonhos.
                 </p>
               </div>
             </div>
