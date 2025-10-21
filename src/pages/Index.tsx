@@ -1,4 +1,3 @@
-import Countdown from "@/components/Countdown";
 import LeadForm from "@/components/LeadForm";
 import Features from "@/components/Features";
 import { Linkedin } from "lucide-react";
@@ -35,9 +34,11 @@ const Index = () => {
             Estamos transformando a forma como o Brasil compra e vende carros. Prepare-se para negociar com total confiança e tranquilidade.
           </p>
 
-          {/* Countdown */}
-          <div className="pt-8">
-            <Countdown />
+          {/* Launch Message */}
+          <div className="pt-8 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+              Parcerias estão sendo firmadas para oferecer as melhores taxas de financiamento do mercado automotivo. A CarroConfiável chegará em breve para ajudar você a conquistar o carro dos seus sonhos.
+            </p>
           </div>
         </div>
       </section>
