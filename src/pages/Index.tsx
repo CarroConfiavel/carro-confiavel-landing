@@ -36,9 +36,14 @@ const Index = () => {
 
           {/* Launch Message */}
           <div className="pt-8 max-w-3xl mx-auto">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Parcerias estão sendo firmadas para oferecer as melhores taxas de financiamento do mercado automotivo. A CarroConfiável chegará em breve para ajudar você a conquistar o carro dos seus sonhos.
-            </p>
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 blur-xl rounded-3xl"></div>
+              <div className="relative bg-card border-2 border-primary/20 rounded-3xl px-8 py-6 shadow-elegant">
+                <p className="text-lg md:text-xl text-foreground leading-relaxed">
+                  Parcerias estão sendo firmadas para oferecer as melhores taxas de financiamento do mercado automotivo. A CarroConfiável chegará em breve para ajudar você a conquistar o carro dos seus sonhos.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
