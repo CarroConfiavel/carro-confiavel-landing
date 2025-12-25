@@ -16,22 +16,21 @@ const Index = () => {
           {/* Logo/Brand */}
           <div className="mb-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-cal-sans bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent mb-2">
-              CarroConfiável.com
+              CarroConfiável
             </h1>
+            <p className="text-lg md:text-xl text-muted-foreground">
+              Onde a confiança é o único padrão.
+            </p>
           </div>
 
           {/* Main Headline */}
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-            A única plataforma onde você{" "}
-            <span className="bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent">
-              não compra o problema
-            </span>{" "}
-            de outra pessoa.
+            A clareza que o seu próximo carro exige.
           </h2>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Estamos transformando a forma como o Brasil compra e vende carros. Prepare-se para negociar com total confiança e tranquilidade.
+            Sem surpresas. Sem entrelinhas.
           </p>
 
           {/* Launch Message */}
@@ -40,9 +39,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 blur-xl rounded-3xl"></div>
               <div className="relative bg-card border-2 border-primary/20 rounded-3xl px-8 py-6 shadow-elegant">
                 <p className="text-lg md:text-xl text-foreground leading-relaxed">
-                  Parcerias estão sendo firmadas para oferecer as melhores taxas de financiamento do mercado automotivo.
-                  <br /><br />
-                  A CarroConfiável chegará em breve para ajudar você a conquistar o carro dos seus sonhos.
+                  Estamos ditando o novo padrão de compra e venda de carros no Brasil, com transparência absoluta e processos desenhados para oferecer tranquilidade do início ao fim.
                 </p>
               </div>
             </div>
@@ -55,11 +52,10 @@ const Index = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(var(--success-glow)/0.1),transparent_70%)]"></div>
         <div className="max-w-3xl mx-auto text-center space-y-8 relative z-10">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground animate-fade-in">
-            Saia na frente. <span className="text-accent">Garanta seu benefício de lançamento.</span>
+            <span className="text-accent">Benefício de Lançamento</span>
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Cadastre-se e seja o primeiro a saber sobre o lançamento. Os inscritos terão a{" "}
-            <strong className="text-accent">garantia de anunciar o primeiro veículo gratuitamente.</strong>
+            Antecipe-se. Cadastre-se e anuncie seu primeiro veículo gratuitamente.
           </p>
           <div className="pt-6">
             <LeadForm />
