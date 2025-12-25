@@ -83,7 +83,7 @@ const LeadForm = () => {
           placeholder="Seu nome"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="h-14 text-lg border-2 focus:border-primary transition-colors"
+          className="h-12 text-base border border-border bg-card focus:border-primary transition-colors"
           disabled={isLoading}
         />
         <Input
@@ -91,7 +91,7 @@ const LeadForm = () => {
           placeholder="Seu melhor e-mail"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="h-14 text-lg border-2 focus:border-primary transition-colors"
+          className="h-12 text-base border border-border bg-card focus:border-primary transition-colors"
           disabled={isLoading}
         />
       </div>
@@ -99,18 +99,18 @@ const LeadForm = () => {
         type="submit"
         size="lg"
         disabled={isLoading}
-        className="w-full h-14 text-lg font-bold bg-accent hover:bg-accent/90 text-accent-foreground shadow-glow hover:shadow-glow hover:scale-105 transition-all duration-300"
+        className="w-full h-12 text-base font-medium bg-accent hover:bg-accent/90 text-accent-foreground transition-all duration-300"
       >
         {isLoading ? (
           <>
-            <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+            <Loader2 className="mr-2 h-4 w-4 animate-spin" />
             Aguarde...
           </>
         ) : (
           "QUERO ANUNCIAR DE GRAÇA"
         )}
       </Button>
-      <p className="text-xs text-center text-muted-foreground">
+      <p className="text-xs text-center text-muted-foreground font-light">
         Ao se cadastrar, você concorda em receber comunicações sobre o lançamento.
       </p>
     </form>
