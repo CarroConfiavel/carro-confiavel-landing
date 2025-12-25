@@ -99,7 +99,7 @@ const LeadForm = () => {
         type="submit"
         size="lg"
         disabled={isLoading}
-        className="w-full h-12 text-base font-medium bg-accent hover:bg-accent/90 text-accent-foreground transition-all duration-300"
+        className="w-full h-12 text-base font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300"
       >
         {isLoading ? (
           <>

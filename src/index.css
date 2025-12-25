@@ -9,43 +9,43 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 98%;
-    --foreground: 220 15% 25%;
+    --foreground: 216 20% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 25%;
+    --card-foreground: 216 20% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 25%;
+    --popover-foreground: 216 20% 20%;
 
-    --primary: 221 70% 55%;
+    --primary: 216 100% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 20% 96%;
-    --secondary-foreground: 220 15% 25%;
+    --secondary: 216 20% 96%;
+    --secondary-foreground: 216 20% 20%;
 
-    --muted: 220 15% 94%;
-    --muted-foreground: 220 10% 50%;
+    --muted: 216 15% 94%;
+    --muted-foreground: 216 10% 45%;
 
-    --accent: 142 60% 40%;
+    --accent: 216 100% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 92%;
-    --input: 220 15% 92%;
-    --ring: 221 70% 55%;
+    --border: 216 15% 90%;
+    --input: 216 15% 90%;
+    --ring: 216 100% 45%;
 
     --radius: 0.75rem;
 
-    /* Custom brand colors - softer for cognitive ease */
-    --hero-gradient-from: 221 70% 55%;
-    --hero-gradient-to: 226 65% 50%;
-    --success-glow: 142 60% 40%;
+    /* Custom brand colors - blue only */
+    --hero-gradient-from: 216 100% 45%;
+    --hero-gradient-to: 220 90% 40%;
+    --success-glow: 216 100% 45%;
 
     /* Shadows - subtle and refined */
-    --shadow-elegant: 0 4px 24px -4px hsl(220 20% 20% / 0.08);
-    --shadow-glow: 0 0 40px hsl(142 60% 40% / 0.15);
+    --shadow-elegant: 0 4px 24px -4px hsl(216 20% 20% / 0.08);
+    --shadow-glow: 0 0 40px hsl(216 100% 45% / 0.15);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

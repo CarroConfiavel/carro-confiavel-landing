@@ -6,11 +6,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
-        <div className="max-w-4xl mx-auto text-center space-y-10 animate-fade-in">
+      <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-24">
+        <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           {/* Logo/Brand */}
-          <div className="mb-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-cal-sans bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent mb-3">
+          <div className="mb-10">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-cal-sans bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent mb-4">
               CarroConfiável
             </h1>
             <p className="text-base md:text-lg text-muted-foreground font-light tracking-wide">
@@ -29,7 +29,7 @@ const Index = () => {
           </p>
 
           {/* Launch Message */}
-          <div className="pt-6 max-w-2xl mx-auto">
+          <div className="pt-8 max-w-2xl mx-auto">
             <div className="bg-card border border-border rounded-2xl px-8 py-6 shadow-elegant">
               <p className="text-base md:text-lg text-foreground/80 leading-relaxed font-light">
                 Estamos ditando o novo padrão de compra e venda de carros no Brasil, com transparência absoluta e processos desenhados para oferecer tranquilidade do início ao fim.
@@ -40,10 +40,10 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 px-4 bg-secondary/40">
+      <section className="py-28 px-4 bg-secondary/40">
         <div className="max-w-2xl mx-auto text-center space-y-6">
           <h2 className="text-2xl md:text-4xl font-semibold text-foreground animate-fade-in">
-            <span className="text-accent">Benefício de Lançamento</span>
+            <span className="text-primary">Benefício de Lançamento</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto font-light">
             Antecipe-se. Cadastre-se e anuncie seu primeiro veículo gratuitamente.

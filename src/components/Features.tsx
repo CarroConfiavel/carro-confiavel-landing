@@ -1,13 +1,7 @@
-import { Brain, ShieldCheck, HandshakeIcon } from "lucide-react";
+import { ShieldCheck, HandshakeIcon } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const features = [
-  {
-    icon: Brain,
-    title: "Inteligência Artificial para Todos",
-    description:
-      "Nosso consultor com Inteligência Artificial ajuda qualquer pessoa, mesmo leiga, a encontrar o carro ideal para suas necessidades de forma simples e informada.",
-  },
   {
     icon: ShieldCheck,
     title: "Transparência Absoluta",
@@ -18,18 +12,15 @@ const features = [
     icon: HandshakeIcon,
     title: "Ecossistema de Confiança",
     description:
-      "Construímos um legado de confiança, com parceiros rigorosamente selecionados e processos que protegem seu investimento, seus sonhos e, acima de tudo, você.",
+      "Curadoria criteriosa e proteção real para o seu investimento, seu tempo e seus planos.",
   },
 ];
 
 const Features = () => {
   return (
     <section className="w-full py-20 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl md:text-4xl font-semibold text-center mb-4 animate-fade-in text-foreground">
-          Chega de ansiedade. <span className="bg-gradient-to-r from-hero-from to-hero-to bg-clip-text text-transparent">Nós vendemos tranquilidade.</span>
-        </h2>
-        <div className="grid md:grid-cols-3 gap-6 mt-14">
+      <div className="max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
