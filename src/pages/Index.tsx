@@ -81,7 +81,7 @@ const Index = () => {
 
             {/* Copyright */}
             <div className="text-sm text-muted-foreground text-center md:text-right font-light">
-              © 2025 CarroConfiável — Todos os direitos reservados.
+              © 2025 CarroConfiável
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 216 20% 20%;
 
-    --primary: 216 100% 45%;
+    --primary: 215 100% 45%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 216 20% 96%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 216 15% 94%;
     --muted-foreground: 216 10% 45%;
 
-    --accent: 216 100% 45%;
+    --accent: 215 100% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,18 +34,18 @@ All colors MUST be HSL.
 
     --border: 216 15% 90%;
     --input: 216 15% 90%;
-    --ring: 216 100% 45%;
+    --ring: 215 100% 45%;
 
     --radius: 0.75rem;
 
-    /* Custom brand colors - blue only */
-    --hero-gradient-from: 216 100% 45%;
-    --hero-gradient-to: 220 90% 40%;
-    --success-glow: 216 100% 45%;
+    /* Custom brand colors - blue #0060e6 */
+    --hero-gradient-from: 215 100% 45%;
+    --hero-gradient-to: 218 95% 40%;
+    --success-glow: 215 100% 45%;
 
     /* Shadows - subtle and refined */
     --shadow-elegant: 0 4px 24px -4px hsl(216 20% 20% / 0.08);
-    --shadow-glow: 0 0 40px hsl(216 100% 45% / 0.15);
+    --shadow-glow: 0 0 40px hsl(215 100% 45% / 0.15);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
